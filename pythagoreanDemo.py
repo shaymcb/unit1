@@ -1,3 +1,6 @@
+#Shaylee McBride
+#19Jan2018
+#pythagoreanDemo.py - how to use import
 
 from math import sqrt
 
