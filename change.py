@@ -1,6 +1,6 @@
 #Shaylee McBride
 #22Jan2018
-#change.py
+#change.py - how many of each coin you need to meet cents
 
 cents = int(input("Input a number in cents: "))
 quarters = int(cents/25)
