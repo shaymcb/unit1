@@ -4,6 +4,7 @@
 
 from random import randint
 
-num1 = randint(-10,10)
+num1 = randint(-10,10)  #pseudorandom, not truly random
 num2 = randint(-10,10)
-print(num1)
+answer = int(input(num1, "+", num2, "= "))
+print(answer == num1 + num2)
