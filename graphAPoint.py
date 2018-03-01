@@ -11,7 +11,7 @@ if abs(xInput) >= abs(yInput):
     scale = abs(xInput/8)
 else:
     scale = abs(yInput/8)
-print(scale)
+print('One hash mark is',scale,'units.')
 
 xAxisLocation = 45*(6-3*(xInput/abs(xInput)))
 yAxisLocation = 45*(6+3*(yInput/abs(yInput)))
